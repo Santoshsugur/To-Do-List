@@ -1,0 +1,75 @@
+*{
+    font-family: "Anek Kannada", sans-serif;
+    background-color: rgb(244, 250, 255);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #333;
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+input,button{
+    padding: 10px;
+}
+::placeholder{
+    color: #272525;
+    font-size: 14px;
+}
+input{
+    padding-right:150px ;
+}
+button{
+    background-color: rgb(199, 224, 247);
+}
+button:hover{
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(227, 238, 247);
+    border-bottom: 1px solid #222121;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: #272525;
+}
+.completebutton{
+    background-color: #aae9ac;
+}
+.deletebtn{
+    background-color: rgb(236, 162, 162);
+}
+
+.task-buttons{
+    display: flex;
+    gap: 10px;
+    background-color:  rgb(227, 238, 247);
+}
+
+.task-buttons button{
+    padding: 5px 15px;
+    border-radius: 5px;
+    
+}
+
